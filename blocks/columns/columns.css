@@ -1,0 +1,25 @@
+.columns-wrapper {
+  padding: 0;
+}
+
+.columns > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .columns > div {
+    grid-template-columns: 1fr;
+  }
+}
+
+.columns img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.columns h2 {
+  font-size: var(--heading-font-size-m);
+}

@@ -1,0 +1,32 @@
+.hero-wrapper {
+  padding: 0;
+}
+
+.hero-wrapper .hero {
+  padding: 60px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero > div {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero h1 {
+  font-size: var(--heading-font-size-xl);
+  margin-bottom: 0.5em;
+}
+
+.hero img:first-child {
+  max-width: 200px;
+  margin-bottom: 1em;
+}

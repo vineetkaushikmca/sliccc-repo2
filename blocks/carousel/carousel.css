@@ -1,0 +1,25 @@
+.carousel-wrapper {
+  padding: 0;
+}
+
+.carousel-wrapper .carousel {
+  overflow: hidden;
+}
+
+.carousel > div {
+  padding: 40px 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel > div > div p:first-child {
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.carousel > div > div p:nth-child(2) {
+  color: var(--color-text-light);
+  font-size: 0.9em;
+}
